@@ -546,28 +546,42 @@ public class Loops {
 
         // Check prime number
 
-        int num = 4;
-        boolean isPrime = false;
+//        int num = 4;
+//        boolean isPrime = false;
+//
+//        if(num == 0 || num == 1)
+//        {
+//          isPrime = false;
+//        }
+//
+//        for(int i = 2; i <= num / 2; ++i) {
+//            if(num % i == 0){
+//                isPrime = true;
+//                break;
+//            }
+//        }
+//
+//        if(!isPrime){
+//            System.out.println(num + " is a prime number.");
+//        }
+//        else
+//        {
+//            System.out.println(num + " is not a prime number.");
+//        }
 
-        if(num == 0 || num == 1)
-        {
-          isPrime = false;
-        }
 
-        for(int i = 2; i <= num / 2; ++i) {
-            if(num % i == 0){
-                isPrime = true;
-                break;
-            }
-        }
 
-        if(!isPrime){
-            System.out.println(num + " is a prime number.");
-        }
-        else
-        {
-            System.out.println(num + " is not a prime number.");
-        }
+//        String name = "Sadikshya";
+//        name = name + " Acharya";
+//        System.out.println(name);
+
+//        String name = "Sadikshya";
+//        name.concat("Acharya");
+//        System.out.println(name);
+//
+//        StringBuilder sb = new StringBuilder("Sadikshya");
+//        sb.append(" Acharya");
+//        System.out.println(sb);
 
 
     }
