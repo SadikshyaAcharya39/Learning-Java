@@ -1,4 +1,8 @@
-public class Arrays {
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Collections;
+
+public class Arrayss {
 
     public static void main(String[] args) {
 //        Object a[] = {'A', 100, 10.0f, 122.222, "Welcome"};
@@ -299,7 +303,7 @@ public class Arrays {
 //        System.out.println(name.concat( " " + caste));
 //        System.out.println(name.concat(" Marasini"));
 
-        String name = "Sadikshyb";
+//        String name = "Sadikshyb";
 //        System.out.println(name.replace("b", "a"));
 
 //        System.out.println(name.startsWith("a"));
@@ -327,24 +331,200 @@ public class Arrays {
 //        String words = "I\'m from \"Nepal\".";
 //        System.out.println(words);
 
-        String text0 = "I\'m from \n Nepal";
-        System.out.println(text0);
-
-        String text = "I\'m from \r Nepal";
-        System.out.println(text);
-
-        String text1 = "I\'m from \t Nepal";
-        System.out.println(text);
-
-        String text2 = "I\'m from \b Nepal";
-        System.out.println(text);
-
-        String text3 = "I\'m from \f Nepal";
-        System.out.println(text);
+//        String text0 = "I\'m from \n Nepal";
+//        System.out.println(text0);
+//
+//        String text = "I\'m from \r Nepal";
+//        System.out.println(text);
+//
+//        String text1 = "I\'m from \t Nepal";
+//        System.out.println(text);
+//
+//        String text2 = "I\'m from \b Nepal";
+//        System.out.println(text);
+//
+//        String text3 = "I\'m from \f Nepal";
+//        System.out.println(text);
 
 
 //        System.out.println(name.substring(0));
 
+//        int array[] = {20, 50, 70, 0, 90};
+//        Arrays.sort(array);
+//        System.out.println(Arrays.toString(array));
+
+        // Searching element in array (linear element)
+
+//        int array[] = {500, 600, 90, 80, 60, 10, 100, 200, 400};
+//        int num = 200;
+//        boolean status = false;
+//
+//        for(int i = 0; i < array.length; i++){
+//            if(array[i] == num){
+//                System.out.println("Element Found!!!");
+//                status = true;
+//                break;
+//            }
+//        }
+//        if(status == false){
+//            System.out.println("Element not found!!!");
+//        }
+
+        // Using enhanced loop
+
+//        int nums[] = {900, 500, 200, 100, 300, 800, 600, 1000};
+//        int num = 110;
+//        boolean status = false;
+//        for(int x : nums){
+//            if(x == num){
+//                System.out.println("Element found : " + x);
+//                status = true;
+//                break;
+//            }
+//        }
+//        if(status == false){
+//            System.out.println("Element not found!!!");
+//        }
+
+
+//        int [] nums = {1000, 400, 600, 200, 300, 900};
+//        Arrays.sort(nums);
+//        System.out.println(Arrays.toString(nums));
+
+//        int[] nums= {1000, 200, 400, 100};
+//        System.out.println(Arrays.toString(nums));
+
+
+
+//        int [] nums = {1000, 900, 300, 800, 400, 200};
+//        Arrays.sort(nums);
+//        System.out.println(Arrays.toString(nums));
+
+//        int[] nums = {900, 100, 400, 300, 600, 200, 800, 700, 1100};
+//        Arrays.sort(nums);
+//        for(int i= nums.length - 1; i >= 0; i--){
+//            System.out.print(nums[i] + " ");
+//        }
+
+//        Arrays.sort(nums, Collections.reverseOrder());
+//        System.out.println(Arrays.toString(nums));
+
+
+//        String partsToJoin[] = {"Sadikshya", "Acharya"};
+//        String joinedString = String.join(" ", partsToJoin);
+//        System.out.println(joinedString);
+
+//        String name = "Sadikshya";
+//        System.out.println(name.substring(0));
+//        System.out.println(name.substring(0, 3));
+
+//        String names = "Sadikshya.Shraddha.Amir.Amit.Anju";
+//        String name[] = names.split("\\.");
+//        for(String a: name){
+//            System.out.println(a);
+//        }
+
+//        String name = "Sadikshya Acharya";
+//        System.out.println(name.startsWith("A"));
+//        System.out.println(name.startsWith("S"));
+//        System.out.println(name.endsWith("s"));
+//        System.out.println(name.endsWith("a"));
+
+//        String text = "Sadikshya";
+//        System.out.println(text.equals("Sadikshya"));
+//        System.out.println(text.equals("sadikshya"));
+//        System.out.println(text.equalsIgnoreCase("sadikshya"));
+
+//        System.out.println(text.toUpperCase());
+//        System.out.println(text.toLowerCase());
+//        System.out.println(text.contains("Sadikshya"));
+//        System.out.println(text.concat("Acharya"));
+
+//        String names = "   Amir  ";
+//        System.out.println(names.length());
+//        System.out.println(names.trim());
+//        System.out.println(names.length());
+
+
+//        String name = "Amit";
+//        System.out.println(name.replaceAll("Amit", "Sadikshya"));
+//        System.out.println(name.replace("t", "r"));
+
+
+        // String, StringBuffer, StringBuilder
+
+//        String name = "Acharya";
+//        name = "Amit";
+//        System.out.println(name);
+
+//        StringBuilder sbuilder = new StringBuilder(name);
+//        name = "Amir";
+//        System.out.println(name);
+
+//        StringBuffer sb = new StringBuffer(name);
+//        name = "Anju";
+//        System.out.println(name);
+
+
+//        String fullName = "Sadikshya";
+//        fullName.concat("Acharya");
+//        System.out.println(fullName);
+//
+//        StringBuffer sb1 = new StringBuffer(fullName);
+//        sb1.append(" Acharya");
+//        System.out.println(sb1);
+//
+//        StringBuilder sb2 = new StringBuilder(fullName);
+//        sb2.append(" Acharya");
+//        System.out.println(sb2);
+
+        // Equals ==
+
+//        String name1 = "Sadikshya";
+//        String name2 = "Sadikshya";
+//
+//        System.out.println(name1.equals(name2));
+//        System.out.println(name1==name2);
+
+//        String name3 = new String("Sadikshya");
+//        String name4 = new String("Sadikshya");
+//        System.out.println(name3.equals(name4));
+//        System.out.println(name3==name4);
+//
+//        String name5 = new String("Sadikshya");
+//        String name6 = name5;
+//
+//        System.out.println(name5.equals(name6));
+//        System.out.println(name5==name6);
+
+//        String partsToJoin[] = {"Sadikshya", "Amir", "Anju", "Shraddha"};
+//        String joinedParts = String.join(" ", partsToJoin);
+//        System.out.println(joinedParts);
+
+//        String name = "Sadikshya.Amit.Amir.Anju.Shraddha";
+//        String names[] = name.split("\\.");
+//        for(String x :names){
+//            System.out.println(x);
+//        }
+
+        // Search Element on Multi-Dimensional Array
+
+//        int[][] nums = {{2, 4, 6, 8, 10}, {1, 3, 5, 7, 9}};
+//        int targetNum = 30;
+//        boolean status = false;
+//        for(int i = 0; i <= nums.length - 1; i++) {
+//            for (int j = 0; j < nums[i].length; j++) {
+//                if (nums[i][j] == targetNum) {
+//                    System.out.println("Element Found!");
+//                    status = true;
+//                    break;
+//                }
+//            }
+//        }
+//
+//        if (status == false) {
+//                    System.out.println("Element not found!");
+//        }
 
 
 
